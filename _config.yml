@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+name: Yao-Yi Chiang
+url: http://yaoyichi.github.io
+description: Insert tagline here
+
+permalink: /themes/:title/
+
+gems: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+=======
+theme: jekyll-theme-midnight
+>>>>>>> 119cb95b37618a4805889f1df8b28ef5d1e85eb3
