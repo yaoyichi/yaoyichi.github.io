@@ -14,5 +14,4 @@ rdiscount:
     extensions: ['smart']
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
-=======
 theme: jekyll-theme-midnight
