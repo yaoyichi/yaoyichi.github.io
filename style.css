@@ -12,8 +12,8 @@ hr {
 body {
 	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
 	font-style: normal;
-	margin-left: 30%; /*clamp(5px,30%,400px);*/
-    margin-right: 30%; /* clamp(5px,30%,400px);*/
+	margin-left: 20%; /*clamp(5px,20%,300px);*/
+    	margin-right: 20%; /* clamp(5px,20%,300px);*/
 	margin-top: 0px;
 	font-size:14px;
 	line-height:170%;text-align:justify;font-weight:400;
