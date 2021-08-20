@@ -1,1 +1,381 @@
+html {
+    font-size: 100%;
+}
+hr {
+    display: block;
+    height: 0.5px;
+    border: 0;
+    border-top: 0.5px solid #ccc;
+    margin: 0.5em 0;
+    padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	font-style: normal;
+	margin-left: 30%; /*clamp(5px,30%,400px);*/
+    margin-right: 30%; /* clamp(5px,30%,400px);*/
+	margin-top: 0px;
+	font-size:14px;
+	line-height:170%;text-align:justify;font-weight:400;
+	color: black;
+	padding-top: 60px;
+}
 
+
+
+/* Main Level */
+ul{
+    padding: 5px;
+    list-style-type: square;
+	margin: 1.2px 0;
+	margin-top: 0px;
+	margin-left: 12px;
+}
+/* Second Level */
+ul ul{
+    list-style-type: circle;
+	margin: 0px 0;
+	margin-left:10px;
+}
+/* Third Level */
+ul ul ul{
+  list-style-type: disc;
+  margin-left:10px;
+}
+
+.noscroll {
+    BOX-SIZING: border-box;
+    WIDTH: 100%;
+    HEIGHT: 100%;
+}
+
+
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+
+p{
+    margin: 0;
+}
+p.bottom{
+margin-bottom:10px ;
+}
+
+	
+.full-width {
+	width: 100%;
+	margin: auto;
+}
+
+
+
+.image-cropper {
+    width: 170px;
+    height: 200px;
+float: center;
+ padding: 0 0px 10px 0;	
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+
+}
+
+.img-icons  .icon{
+	font-size: 25px;
+	border: 0;
+}
+
+
+
+.front-image {
+	display: inline;
+	float: center;
+	margin-top: 0px;
+	margin-left: 10px;  
+	margin-right: 10px;  
+	margin-bottom: 0px; 
+}
+
+.front-left {
+	margin-left: 10px; 
+	margin-right:5px;
+	float: left;
+}
+.front-right {
+  float: right;
+}
+.front-page {
+	min-height: 230px;
+	width: 100%;
+	display:inline-flex;
+	flex-wrap:wrap;
+	margin-top: 0px;
+	margin-left: 0px;  
+	margin-right: 0px;  
+	margin-bottom: 0px; 
+}
+
+.flex-direction{
+  flex-direction:row;
+}
+
+.header-page {
+	display: block;
+	margin-top: 20px;
+	margin-left: 0px;  
+	margin-right: 0px;  
+	margin-bottom: 20px; 
+}
+
+
+.body-page {
+	display:inline-block;zoom:1;display*:inline;vertical-align:middle;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;  
+	margin-right: 0px;  
+	margin-bottom: 10px;  
+}
+
+
+
+blockquote {
+	display: inline;
+	margin-left: 0;
+	position:relative;
+	margin-bottom: 0px;  
+	border-radius: 10px;
+	font-size: 14px;
+	 background-color: #F0F0F0;
+
+}
+
+
+
+
+/* Some styles below are borrowed from jiajunwu.com/css/main.css */
+
+h1,h2,h3,h4,h5,h6,div.title,span.venue{font-weight:505}
+
+span.icon{    
+display: inline-block; /* change the display type           */
+margin: 0px 2px;        /* apply the needed vertical margins */
+}
+
+div.title{font-size:100%}
+h4{font-weight:505;font-size:90%}
+
+div.title,div.ftsubheader{font-size:100%}
+div.title a:link,
+div.title a:visited{color:#000000}
+div.content a:hover,
+div.content a:hover div.text,
+div.ftsubheader a:hover{text-decoration:underline}
+
+
+
+div.header,div.container,div.content,div.img,div.text{
+	display:inline-block;zoom:1;display*:inline;text-align:left;margin-left:auto;margin-right:auto;vertical-align:middle
+	}
+div.publication div.text{max-width:650px;text-align:left;vertical-align:top}
+div.anchor{border-top:50px solid transparent;margin-top:-50px;margin-left:-3px;}
+
+#section_pub,#section_group,#section_talks{
+padding-top: 30px;
+margin-top: -30px;
+}
+
+span.venue,span.highlight,div.publication span.tag{padding-right:0px;font-size:100%}
+
+span.fullvenue{padding-left:8px}
+
+span.highlight,
+span.highlight a:link,
+span.highlight a:visited{color:#BB2222}
+
+span.highlight{padding-right:0px;font-size:100%}
+span.highlight,
+span.highlight a:link,
+span.highlight a:visited{color:#BB2220}
+
+span.me{color:#000000 !important;font-weight:500;text-decoration:underline;}
+
+div.authors a:link,
+div.authors a:visited{color:#777777}
+div.authors{font-size:100%;color:#777777}
+span.author{white-space:nowrap}
+
+div.publication{padding-top:0px;padding-bottom:20px}
+div.publication div.img{max-width:300px;padding-right:0px;padding-top:5px}
+div.publication div.text{max-width:650px;text-align:left;vertical-align:top}
+span.venue,span.highlight,div.publication span.tag{padding-right:0px;font-size:100%}
+
+
+div.container a:link,
+div.container a:visited{color:#0055AA;text-decoration:none}
+div.ftheader a:link,
+div.ftheader a:visited,
+div.ftsubheader a:link,
+div.ftsubheader a:visited{color:#FFFFFF;text-decoration:none}
+div.title a:link,
+div.title a:visited{color:#000000}
+div.authors a:link,
+div.authors a:visited{color:#777777}
+div.content a:hover,
+div.content a:hover div.text,
+div.ftsubheader a:hover{text-decoration:underline}
+
+
+ul#datalist_news li:nth-child(n+6) {
+    display:none;
+}
+ul#datalist_talks li:nth-child(n+20) {
+    display:none;
+}
+
+span#extension {
+    cursor: pointer;
+    color: gray;
+	font-size: 60%;
+	font-weight: 400;
+}
+
+span#publication {
+    cursor: pointer;
+    color: gray;
+	font-size: 60%;
+	font-weight: 400;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: white;
+  	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	position: fixed;
+	top: 0px; 
+	width: 40%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+	padding-top: 8px;
+	padding-bottom: 0px;
+	padding-left: 0;
+	padding-right: 0;
+	font-size:16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+     font-size: 10px;
+   margin-bottom: 0px;
+}
+
+
+
+
+a.name {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.link {
+	font-size: 16px;
+	font-weight: 400;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 0px;	
+    float: right;
+	line-height: 1.6;
+
+}
+
+a.nav-link{
+	font-size: 11px;
+	padding-top: 12px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+a.nav-link:link
+{
+   color: black;
+   text-decoration: none;
+   font-size: 11px;
+   margin-bottom: -5px;
+}
+a.nav-link:visited
+{
+   color: black;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: black;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: black;
+   text-decoration: none;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+div.bottombar{
+	font-size:10px
+}
+
+
+.footer {
+	bottom: 0px;
+	background-color: white;
+	width:100%;
+	position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    html, body, .row {
+      margin-left:2% !important;
+      margin-right:2% !important;
+
+   }
+	.topnav {
+		width: 96% !important;
+	}
+	.front-right {
+		float: left;
+	}
+}
